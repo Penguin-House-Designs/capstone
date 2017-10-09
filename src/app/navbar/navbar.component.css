@@ -1,0 +1,42 @@
+.my-toolbar-bottom{
+    width: 100vw;
+    height: 13vh;
+    background: rgba(1,188,198,1);
+    display: flex;
+    justify-content: flex-end;
+}
+.div-links{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-content: center;
+}
+.my-toolbar-links{
+    border-right: 1px solid white;
+    height: 100%;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.my-toolbar-links:hover{
+    background: rgb(5, 92, 97);
+    cursor: pointer;
+}
+.my-toolbar-top{
+    width: 100vw;
+    height: 13vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.circle-logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: grey;
+}
