@@ -11,8 +11,12 @@ import { PriceServicesComponent } from './price-services/price-services.componen
 
 import { 
   MatToolbarModule,
-  MatButtonModule
+  MatButtonModule,
+  MatListModule,
+  MatCardModule,
+  MatIconModule
  } from '@angular/material';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -20,7 +24,8 @@ import {
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    PriceServicesComponent
+    PriceServicesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,10 @@ import {
     routes,
     CommonModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatListModule,
+    MatCardModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
