@@ -11,8 +11,12 @@ import { PriceServicesComponent } from './price-services/price-services.componen
 
 import {
   MatToolbarModule,
-  MatButtonModule
+  MatButtonModule,
+  MatListModule,
+  MatCardModule,
+  MatIconModule
  } from '@angular/material';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +24,7 @@ import {
     HomeComponent,
     NavbarComponent,
     PriceServicesComponent,
+    FooterComponent,
     ng2Parallax
   ],
   imports: [
@@ -29,7 +34,10 @@ import {
     routes,
     CommonModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatListModule,
+    MatCardModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

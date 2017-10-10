@@ -23,6 +23,15 @@
     font-size: 20px;
 }
 
+.number-nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 35px;
+    margin-left: 10px;
+}
+
 .my-toolbar-links a{
     text-decoration: none;
     color: white;
@@ -46,7 +55,19 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 200px;
+    margin-right: 160px;
+    color: rgba(1,188,198,1);
+}
+.phone-logo{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-right: 160px;
+    color: rgba(1,188,198,.8);
 }
 .img1{
     background-image: url('../../assets/img/internachi_blue_gold_certified.png');
@@ -56,6 +77,9 @@
 }
 .img4{
     background-image: url('../../assets/img/RoofInspector.png');
+}
+.img5{
+    background-image: url('../../assets/img/verteran-pic.png');
 }
 
 .main-logo{
