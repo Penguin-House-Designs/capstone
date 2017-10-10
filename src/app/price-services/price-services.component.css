@@ -1,0 +1,49 @@
+.hero{
+  background-image: url('../../assets/img/brian-babb-256298.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.pricing-info{
+  padding-top: 3%;
+  margin-top: 5%;
+  font-size: 15pt;
+  text-align: center;
+  width: 35%;
+  height: 500px;
+  background: rgba(255,255,255,.6);
+  color: black;
+}
+
+.pricing-info h1 {
+  text-align: center;
+  color: rgba(1,188,198,1);
+  font-size: 20pt;
+}
+.test{
+  background-image: url('../../assets/img/brian-babb-256298.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: inherit;
+  height: inherit;
+}
+
+.additional{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  background-image: url('../../assets/img/naomi-hebert-188443.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+}
