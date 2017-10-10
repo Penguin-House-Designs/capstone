@@ -7,17 +7,20 @@ import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PriceServicesComponent } from './price-services/price-services.component';
 
 import { 
   MatToolbarModule,
   MatButtonModule
  } from '@angular/material';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    PriceServicesComponent
   ],
   imports: [
     BrowserModule,
