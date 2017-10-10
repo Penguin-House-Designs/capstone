@@ -1,0 +1,81 @@
+.inspector-wrapper {
+  display: flex;
+  margin-top: 50px;
+  height: 70vh;
+  width: 100%;
+  flex-wrap: wrap;
+  background: url('../../assets/img/inspectors-bg2.jpg') fixed no-repeat center;
+  background-size: cover;
+  /*background-image: url('../../assets/img/inspectors-bg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background*/
+}
+
+
+.prof-container {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.prof1 {
+  background-image: url('../../assets/img/scott.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 100%;
+}
+
+.profpic {
+  width: 100%;
+  height: 100%;
+}
+
+.prof2 {
+  background-image: url('../../assets/img/jay.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 100%;
+}
+
+.team-container {
+  background:rgba(255, 255, 255, 0.6);
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-title {
+  background:rgba(255, 255, 255, 0.6);
+  padding: 50px 0 0 0;
+  font-size: 50px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team-pic {
+  background-image: url('../../assets/img/team2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25%;
+}
+
+.about {
+  background: rgba(1,188,198,1);
+  height: 250px;
+  width: 60%;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+.about h5 {
+  font-size: 24px;
+}

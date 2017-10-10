@@ -11,7 +11,8 @@ import { PriceServicesComponent } from './price-services/price-services.componen
 
 import {
   MatToolbarModule,
-  MatButtonModule
+  MatButtonModule,
+  MatGridListModule
  } from '@angular/material';
 
 
@@ -30,7 +31,8 @@ import {
     routes,
     CommonModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
