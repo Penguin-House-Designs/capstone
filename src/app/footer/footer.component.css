@@ -1,0 +1,35 @@
+.my-footer{
+    width: 100vw;
+    height: 200px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background: #e6e6e6;
+}
+
+.circle-logo{
+    width: 100px;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 160px;
+    color: rgba(1,188,198,1);
+}
+
+.img1{
+    background-image: url('../../assets/img/internachi_blue_gold_certified.png');
+}
+.img3{
+    background-image: url('../../assets/img/Electrical-logo.png');
+}
+.img4{
+    background-image: url('../../assets/img/RoofInspector.png');
+}
+.img5{
+    background-image: url('../../assets/img/verteran-pic.png');
+}
+.img6{
+    background-image: url('../../assets/img/InterNACHI-Certified-Structure-Foundation-Inspector-PNG-a.png');
+}
