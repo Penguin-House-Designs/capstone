@@ -8,12 +8,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PriceServicesComponent } from './price-services/price-services.component';
-
 import {
   MatToolbarModule,
   MatButtonModule,
-  MatGridListModule
+  MatListModule,
+  MatCardModule,
+  MatIconModule
  } from '@angular/material';
+import { FooterComponent } from './footer/footer.component';
+import { ServiceAreaComponent } from './service-area/service-area.component';
 
 
 @NgModule({
@@ -22,7 +25,9 @@ import {
     InspectorsComponent,
     HomeComponent,
     NavbarComponent,
-    PriceServicesComponent
+    PriceServicesComponent,
+    FooterComponent,
+    ServiceAreaComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +37,6 @@ import {
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
-    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
