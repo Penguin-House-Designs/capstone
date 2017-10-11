@@ -3,13 +3,12 @@ import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform
 import { NgModule } from '@angular/core';
 import { routes } from './app.router';
 import { CommonModule } from '@angular/common';
-
+import { InspectorsComponent } from './inspectors/inspectors.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PriceServicesComponent } from './price-services/price-services.component';
-
-import { 
+import {
   MatToolbarModule,
   MatButtonModule,
   MatListModule,
@@ -17,15 +16,18 @@ import {
   MatIconModule
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
+import { ServiceAreaComponent } from './service-area/service-area.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    InspectorsComponent,
     HomeComponent,
     NavbarComponent,
     PriceServicesComponent,
-    FooterComponent
+    FooterComponent,
+    ServiceAreaComponent
   ],
   imports: [
     BrowserModule,
@@ -35,9 +37,6 @@ import { FooterComponent } from './footer/footer.component';
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
-    MatListModule,
-    MatCardModule,
-    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
