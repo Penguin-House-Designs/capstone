@@ -19,6 +19,7 @@ import {
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
 import { FaqComponent } from './faq/faq.component';
+import { ServiceAreaComponent } from './service-area/service-area.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FaqComponent } from './faq/faq.component';
     NavbarComponent,
     PriceServicesComponent,
     FooterComponent,
+    ServiceAreaComponent
   ],
   imports: [
     BrowserModule,
