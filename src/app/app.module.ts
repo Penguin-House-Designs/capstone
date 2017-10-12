@@ -19,7 +19,7 @@ import {
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
 import { FaqComponent } from './faq/faq.component';
-
+d
 @NgModule({
   declarations: [
     AppComponent,
