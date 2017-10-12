@@ -14,7 +14,8 @@ import {
   MatButtonModule,
   MatListModule,
   MatCardModule,
-  MatIconModule
+  MatIconModule,
+  MatSidenavModule
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
 
@@ -37,7 +38,8 @@ import { FooterComponent } from './footer/footer.component';
     MatButtonModule,
     MatListModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
