@@ -1,0 +1,35 @@
+.faq{
+  background-image: url('../../assets/img/breather-7169.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.questions mat-expansion-panel{
+  width: 100%;
+  background-color: rgba(0,0,0,.3);
+  color: white;
+}
+
+.questions p{
+  color: white;
+  /*text-align: center;*/
+  font-size: 14pt;
+}
+
+.questions mat-panel-title{
+  font-size: 16pt;
+  color: white;
+}
+
+.questions{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 60%;
+  font-size: 16pt;
+}

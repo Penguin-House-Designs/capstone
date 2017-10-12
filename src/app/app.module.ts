@@ -8,15 +8,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PriceServicesComponent } from './price-services/price-services.component';
-
 import {
   MatToolbarModule,
   MatButtonModule,
   MatListModule,
   MatCardModule,
-  MatIconModule
+  MatIconModule,
+  MatExpansionModule
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     PriceServicesComponent,
     FooterComponent,
-    ng2Parallax
+    ng2Parallax,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { FooterComponent } from './footer/footer.component';
     MatButtonModule,
     MatListModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

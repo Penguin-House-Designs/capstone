@@ -16,9 +16,9 @@
   margin-top: 5%;
   font-size: 15pt;
   text-align: center;
-  width: 35%;
+  width: 30%;
   height: 500px;
-  background: rgba(255,255,255,.6);
+  background: rgba(255,255,255,.4);
   color: black;
 }
 
@@ -45,5 +45,5 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
 }
