@@ -1,3 +1,29 @@
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+
+
+        
+        
+<mat-sidenav-container style='height:100%;width:100%;'> 
+
+    <app-navbar></app-navbar> 
+    <div class='hamMenu' >
+        <button type="button" mat-icon-button (click)="sidenav.open()">
+            <span style='font-size: 30px;' class='ion-android-menu' ></span>
+        </button>
+    </div>
+
+    <mat-sidenav position='end' class='sidenav' #sidenav mode="push" >
+            <mat-list>
+                <mat-list-item class='sidenav-links' routerLink='/home' > Home </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/service-area'  > Service Area </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/prices' > Pricing </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/inspectors' > Your Inspectors </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/faq' > FAQs </mat-list-item>
+            </mat-list>
+    </mat-sidenav> 
+
+    <router-outlet></router-outlet>  
+
+    <app-footer></app-footer>
+
+</mat-sidenav-container>
+
