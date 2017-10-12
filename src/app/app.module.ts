@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { routes } from './app.router';
 import { CommonModule } from '@angular/common';
 import { InspectorsComponent } from './inspectors/inspectors.component';
+import { ng2Parallax  } from 'ang2-parallax/ng2parallax';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -13,11 +14,12 @@ import {
   MatButtonModule,
   MatListModule,
   MatCardModule,
-  MatIconModule
+  MatIconModule,
+  MatExpansionModule
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
+import { FaqComponent } from './faq/faq.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
-
 
 @NgModule({
   declarations: [
@@ -37,6 +39,10 @@ import { ServiceAreaComponent } from './service-area/service-area.component';
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
+    MatListModule,
+    MatCardModule,
+    MatIconModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
