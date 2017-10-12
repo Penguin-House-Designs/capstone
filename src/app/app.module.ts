@@ -15,6 +15,7 @@ import {
   MatListModule,
   MatCardModule,
   MatIconModule,
+  MatSidenavModule,
   MatExpansionModule
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
@@ -29,7 +30,8 @@ import { ServiceAreaComponent } from './service-area/service-area.component';
     NavbarComponent,
     PriceServicesComponent,
     FooterComponent,
-    ServiceAreaComponent
+    ServiceAreaComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +44,7 @@ import { ServiceAreaComponent } from './service-area/service-area.component';
     MatListModule,
     MatCardModule,
     MatIconModule,
+    MatSidenavModule,
     MatExpansionModule
   ],
   providers: [],
