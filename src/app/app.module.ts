@@ -30,7 +30,8 @@ import { ServiceAreaComponent } from './service-area/service-area.component';
     NavbarComponent,
     PriceServicesComponent,
     FooterComponent,
-    ServiceAreaComponent
+    ServiceAreaComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
