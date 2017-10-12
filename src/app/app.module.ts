@@ -3,6 +3,7 @@ import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform
 import { NgModule } from '@angular/core';
 import { routes } from './app.router';
 import { CommonModule } from '@angular/common';
+import { InspectorsComponent } from './inspectors/inspectors.component';
 import { ng2Parallax  } from 'ang2-parallax/ng2parallax';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -22,12 +23,11 @@ import { FaqComponent } from './faq/faq.component';
 @NgModule({
   declarations: [
     AppComponent,
+    InspectorsComponent,
     HomeComponent,
     NavbarComponent,
     PriceServicesComponent,
     FooterComponent,
-    ng2Parallax,
-    FaqComponent
   ],
   imports: [
     BrowserModule,
