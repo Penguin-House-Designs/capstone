@@ -1,29 +1,28 @@
 
 
-        
-        
-<mat-sidenav-container style='height:100%;width:100%;'> 
 
-    <app-navbar></app-navbar> 
+
+<mat-sidenav-container style='height:100%;width:100%;'>
+
+    <app-navbar></app-navbar>
     <div class='hamMenu' >
         <button type="button" mat-icon-button (click)="sidenav.open()">
             <span style='font-size: 30px;' class='ion-android-menu' ></span>
         </button>
     </div>
 
-    <mat-sidenav position='end' class='sidenav' #sidenav mode="push" >
+    <mat-sidenav position='end' class='sidenav' #sidenav mode="over">
             <mat-list>
-                <mat-list-item class='sidenav-links' routerLink='/home' > Home </mat-list-item>
-                <mat-list-item class='sidenav-links' routerLink='/service-area'  > Service Area </mat-list-item>
-                <mat-list-item class='sidenav-links' routerLink='/prices' > Pricing </mat-list-item>
-                <mat-list-item class='sidenav-links' routerLink='/inspectors' > Your Inspectors </mat-list-item>
-                <mat-list-item class='sidenav-links' routerLink='/faq' > FAQs </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/home' (click)="sidenav.close()" > Home </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/service-area' (click)="sidenav.close()" > Service Area </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/prices' (click)="sidenav.close()"> Pricing </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/inspectors' (click)="sidenav.close()"> Your Inspectors </mat-list-item>
+                <mat-list-item class='sidenav-links' routerLink='/faq' (click)="sidenav.close()"> FAQs </mat-list-item>
             </mat-list>
-    </mat-sidenav> 
+    </mat-sidenav>
 
-    <router-outlet></router-outlet>  
+    <router-outlet></router-outlet>
 
     <app-footer></app-footer>
 
 </mat-sidenav-container>
-
