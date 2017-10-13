@@ -5,7 +5,6 @@
   background-position: center center;
   background-attachment: fixed;
   width: 100%;
-  margin-top: 32px;
   display: flex;
   justify-content: center;
 }
@@ -18,7 +17,6 @@
 
 .questions p{
   color: white;
-  /*text-align: center;*/
   font-size: 14pt;
 }
 
@@ -28,8 +26,85 @@
 }
 
 .questions{
-  margin-top: 5%;
+  margin-top: 12%;
   margin-bottom: 5%;
   width: 60%;
   font-size: 16pt;
+}
+
+@media screen and (max-width: 1200px) {
+  .questions{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    width: 85%;
+  }
+
+  .questions mat-expansion-panel{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+  }
+
+  .questions p{
+    color: white;
+    font-size: 14pt;
+  }
+
+  .questions mat-panel-title{
+    font-size: 16pt;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .questions{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    width: 85%;
+  }
+
+  .questions mat-expansion-panel{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+  }
+
+  .questions p{
+    color: white;
+    font-size: 14pt;
+  }
+
+  .questions mat-panel-title{
+    font-size: 16pt;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .questions{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    width: 85%;
+  }
+
+  .questions mat-expansion-panel{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+  }
+
+  .questions p{
+    color: white;
+    font-size: 12pt;
+  }
+
+  .questions mat-panel-title{
+    font-size: 14pt;
+    color: white;
+  }
+
 }
