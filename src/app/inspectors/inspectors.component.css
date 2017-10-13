@@ -1,6 +1,6 @@
 .inspector-wrapper {
   display: flex;
-  margin-top: 50px;
+  margin-top: 115px;
   height: 100%;
   width: 100%;
   flex-wrap: wrap;
@@ -37,7 +37,7 @@
 .team-pic {
   background: url('../../assets/img/team2.jpg') no-repeat center;
   background-size: cover;
-  height: 68%;
+  height: 100%;
   width: 28%;
   margin-left: 7%;
 }
@@ -75,7 +75,7 @@
   background: url('../../assets/img/scott.jpg') no-repeat center;
   background-size: cover;
   width: 20%;
-  height: 76%;
+  height: 100%;
   margin-right: 7%;
 }
 
@@ -83,7 +83,7 @@
   background: url('../../assets/img/jay.jpg') no-repeat;
   background-size: cover;
   width: 20%;
-  height: 76%;
+  height: 100%;
   margin-left: 7%;
 }
 
@@ -108,6 +108,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .inspector-wrapper {
+    margin-top: 80px;
+  }
+
   .team-pic, .about, .prof1, .bio1, .prof2, .bio2 {
     width: 50%;
     height: 100%;
@@ -122,12 +126,27 @@
     padding: 0;
   }
 
+  .bio1, .about, .bio2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .prof-container1 {
     background: rgba(255,255,255, .8)
   }
 }
 
 @media screen and (max-width: 700px) {
+  .inspector-wrapper {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  .inspector-wrapper h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
   .team-pic, .about, .prof1, .bio1, .prof2, .bio2 {
     width: 100%;
     height: 50%;
@@ -135,5 +154,30 @@
 
   .team-container, .prof-container1, .prof-container2  {
     flex-wrap: wrap;
+    height: 90vh;
+    padding-bottom: 10%;
   }
+
+  .bio1, .about, .bio2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 30px;
+  }
+
+  .team-pic, .prof1, .prof2 {
+    margin: 5% 15%
+  }
+
+  .bio1 {
+    order: 2;
+  }
+
+  .prof1 {
+    order: 1;
+  }
+
+  .team-title {
+    font-size: 40px
+  }
+
 }
