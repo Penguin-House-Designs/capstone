@@ -1,3 +1,15 @@
-<p>
-  service-area works!
-</p>
+
+<div class='my-map' >
+  <div class='my-map-header'  >
+    <h2>Our Inspection Service Area</h2>
+  </div>
+    <ngui-map zoom="9" center="40.881787, -111.886139" scrollwheel="false">
+      <polygon [editable]="false"
+        [paths]="paths"
+        [strokeColor]="'#01bcc6'"
+        [strokeOpacity]="0.8"
+        [strokeWeight]="2"
+        [fillColor]="'#01bcc6'"
+        [fillOpacity]="0.35"></polygon>
+    </ngui-map>
+</div>
