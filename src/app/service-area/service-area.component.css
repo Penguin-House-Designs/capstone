@@ -1,0 +1,37 @@
+.my-map{
+    height: 600px;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+ngui-map {
+    display: block;
+    height: 600px;
+    width: 80%;
+}
+
+.my-map-header{
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .my-map{
+        margin-top: 18vh;
+    }
+ 
+ }
+@media screen and (max-width: 700px) {
+    
+    .my-map{
+        margin-top: 13vh;
+    }
+ 
+ }

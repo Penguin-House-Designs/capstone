@@ -21,6 +21,7 @@ import {
 import { FooterComponent } from './footer/footer.component';
 import { FaqComponent } from './faq/faq.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
+import { NguiMapModule } from '@ngui/map';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { ServiceAreaComponent } from './service-area/service-area.component';
     MatCardModule,
     MatIconModule,
     MatSidenavModule,
-    MatExpansionModule
+    MatExpansionModule,
+    NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyAglDddDEF-z2VmoKfCO_NHAeHL8fECOdU'})
   ],
   providers: [],
   bootstrap: [AppComponent]
