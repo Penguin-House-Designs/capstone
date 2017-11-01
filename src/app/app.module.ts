@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PriceServicesComponent } from './price-services/price-services.component';
+import { FormsModule } from '@angular/forms';
 import {
   MatToolbarModule,
   MatButtonModule,
@@ -16,12 +17,14 @@ import {
   MatCardModule,
   MatIconModule,
   MatSidenavModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatSnackBarModule
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
 import { FaqComponent } from './faq/faq.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
 import { NguiMapModule } from '@ngui/map';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,9 @@ import { NguiMapModule } from '@ngui/map';
     BrowserModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
+    HttpModule,
+    FormsModule,
+    MatSnackBarModule,
     routes,
     CommonModule,
     MatToolbarModule,

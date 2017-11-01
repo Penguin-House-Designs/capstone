@@ -8,9 +8,8 @@
 
 .home-box-one{
     position: relative;
-    padding: 20px;
     display: flex;
-    flex: 1;
+    /*flex: 1;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -20,7 +19,55 @@
     height: 560px;
     background-attachment: fixed;
 }
-.home-box-one:before {
+
+.home-box-one-overlay{
+  width: 100%;
+  height: inherit;
+  background: rgba(79, 195, 247, .7);
+  text-align: center;
+  color: white;
+
+}
+
+.home-box-one-overlay span{
+  text-decoration: underline;
+}
+
+.home-box-one-main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  font-size: 20px;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+  margin-top: 50px;
+}
+
+/*.home-box-one-main ul {
+  list-style-type: none;
+}*/
+
+.home-box-one-title{
+    font-size: 40px;
+    margin-top: 40px;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+}
+
+.catch{
+  font-size: 35px;
+  color: white;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+  text-align: center;
+  font-style: italic;
+  margin-top: -15%;
+  border:
+}
+
+/*.home-box-one:before {
     content: "";
     display: block;
     position: absolute;
@@ -28,39 +75,76 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,255,255, 0.5);
+    background: rgba(79, 195, 247, .7);
     -moz-transition: background .3s linear;
     -webkit-transition: background .3s linear;
     -o-transition: background .3s linear;
     transition: background .3s linear;
-  }
-  
+  }*/
+
+.cutout {
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+  width: 50%;
+  height: auto;
+  position: relative;
+  left: 0;
+  bottom: -17%;
+}
+
+.heading{
+  margin-top: 5%;
+  font-size: 30pt;
+}
+
+.motto{
+  margin-top: 4%;
+  font-size: 25pt;
+  font-family: cursive;
+}
+
+.motto-contain{
+  width: 40%;
+  height: 8%;
+  background-color: rgba(0,0,0,.2);
+  color: white;
+  position: absolute;
+  right: 3%;
+  top: 10%;
+  text-align: center;
+  justify-content: center;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
 .list-items{
-    padding-top: 10px; 
+    padding-top: 10px;
     font-size: 12px;
     padding-left: 20px;
 }
-.home-box-one-title{
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
+
 .home-top-pic{
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     width: 100%;
-    height: 100vh;
+    height: 86vh;
+    /*margin-left: 15%;*/
+    margin-top: 8%;
+    /*margin-bottom: 5%;*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('http://www.loversiq.com/daut/as/f/w/wonderful-mansion-with-pool-and-great-beach-view-goodhomez-com-wallpapers-landscape-houses-pools-design-cities-334055-svetik_big-nice-houses-with-a-pool_apartment_studio-apartments-design-small-apartm.jpg')
+    /*background-color: #4fc3f7;*/
+    background-image: url('../../assets/img/homemain.jpg');
+    overflow: hidden;
 }
-.home-box-one-card{
-    position: sticky;
-    z-index: 3;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 3px;
-    width: 90%;
-    padding: 20px;
-    border: 1px solid grey;
-    box-shadow: 7px 6px 13px -4px rgba(0,0,0,0.75);
+
+.overlay{
+  /*background-attachment: fixed;*/
+  width: 100%;
+  height: 86vh;
+  /*margin-left: 15%;*/
+  /*margin-bottom: 5%;*/
+  background-color: rgba(255,255,255,0.1);
+
+  overflow: hidden;
 }
