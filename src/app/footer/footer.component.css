@@ -1,11 +1,42 @@
+
 .my-footer{
     width: 100vw;
     height: 200px;
-    justify-content: flex-end;
+    justify-content: space-around;
     display: flex;
     align-items: center;
     padding-top: 20px;
-    background: #e6e6e6;
+    background: #f9f9f9;
+    -webkit-filter: drop-shadow(1px 1px 1px #222);
+    filter: drop-shadow(1px 1px 1px #222);
+}
+
+.call-now{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #4fc3f7;
+  font-size: 20px;
+}
+
+.call-now span{
+  color: #4fc3f7;
+
+}
+
+.plogo{
+  width: 30%;
+  height: auto;
+  color: #8f9296;
+  opacity: .5;
+}
+
+.logo-position{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .circle-logo{
@@ -14,22 +45,181 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 160px;
+    /*margin-right: 160px;*/
     color: rgba(1,188,198,1);
 }
 
 .img1{
     background-image: url('../../assets/img/internachi_blue_gold_certified.png');
 }
-.img3{
+/*.img3{
     background-image: url('../../assets/img/Electrical-logo.png');
 }
 .img4{
     background-image: url('../../assets/img/RoofInspector.png');
-}
+}*/
 .img5{
     background-image: url('../../assets/img/verteran-pic.png');
 }
-.img6{
+/*.img6{
     background-image: url('../../assets/img/InterNACHI-Certified-Structure-Foundation-Inspector-PNG-a.png');
+}*/
+
+.footer-contact{
+	background-color: #4fc3f7;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+.footer-contact .footer-left{
+	float: left;
+}
+
+.footer-contact h3{
+	color:  white;
+	font-size: 30pt;
+  font-family: inherit;
+	margin: 0 0 10px;
+}
+
+.footer-contact .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-contact .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  white;
+}
+
+.footer-contact .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact .footer-right{
+	float: right;
+}
+
+.footer-contact .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: white;
+}
+
+.footer-contact form{
+	display: inline-block;
+}
+
+.footer-contact form input,
+.footer-contact form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  rgb(255,255,255);
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-contact ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-contact ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-contact :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+.footer-contact form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-contact form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-contact form button{
+	border-radius: 3px;
+	background-color:  white;
+	color: #687378;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+@media (max-width: 1000px) {
+
+	.footer-contact {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-contact .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-contact form input,
+	.footer-contact form textarea{
+		width: 250px;
+	}
+
+	.footer-contact form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-contact{
+		padding: 30px;
+	}
+
+	.footer-contact .footer-left,
+	.footer-contact .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-contact .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-contact form{
+		margin-top: 30px;
+	}
+
+	.footer-contact form{
+		display: block;
+	}
+
+	.footer-contact form button{
+		float: none;
+	}
 }
