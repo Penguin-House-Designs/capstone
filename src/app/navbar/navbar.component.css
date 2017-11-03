@@ -180,11 +180,11 @@
         justify-content: center;
         width: 200px;
         position: absolute;
-        top: 22px;
-        left: 50vw;
+        top: 26px;
+        left: 62vw;
         margin-left: -100px;
         display: flex;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         z-index: 9999;
     }
@@ -234,7 +234,7 @@
 @media screen and (max-width: 390px) {
 
     .toolbar-name{
-        top: 24px;
+        left: 58vw;
     }
 
     .top-white{
