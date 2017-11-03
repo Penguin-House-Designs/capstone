@@ -1,110 +1,89 @@
 .faq{
-  background-image: url('../../assets/img/breather-7169.jpg');
+  background-image: url('../../assets/img/faqBg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   width: 100%;
+  margin-top: 115px;
+}
+
+.faq-overlay {
+  height: inherit;
+  width: 100%;
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  background-color: rgba(79, 195, 247, .7);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.faq-title {
+  padding: 50px;
+  width: 100%;
+  font-size: 36px;
+  color: black;
   display: flex;
   justify-content: center;
+
+}
+
+.panel-title {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.panel-content {
+  padding:7px;
 }
 
 .questions mat-expansion-panel{
   width: 100%;
-  background-color: rgba(0,0,0,.3);
-  color: white;
+  /*background-color: rgba(0,0,0,.7);*/
+  /*background-color: rgba(79, 195, 247, .7);*/
+  background-color: rgba(255, 255, 255, .9);
+  color: black;
 }
 
 .questions p{
-  color: white;
-  font-size: 14pt;
+  color: black;
+  font-size: 16pt;
+  line-height: 1.5;
+  margin-top: 3%;
 }
 
 .questions mat-panel-title{
-  font-size: 16pt;
-  color: white;
+  font-size: 18pt;
+  color: black;
 }
 
 .questions{
-  margin-top: 12%;
+  /*margin-top: 12%;*/
   margin-bottom: 5%;
-  width: 60%;
-  font-size: 16pt;
+  width: 80%;
 }
 
-@media screen and (max-width: 1200px) {
-  .questions{
-    margin-top: 20%;
-    margin-bottom: 5%;
-    width: 85%;
-  }
-
-  .questions mat-expansion-panel{
-    width: 100%;
-    height: auto;
-    background-color: rgba(0,0,0,.3);
-    color: white;
-  }
-
-  .questions p{
-    color: white;
-    font-size: 14pt;
-  }
-
-  .questions mat-panel-title{
-    font-size: 16pt;
-    color: white;
-  }
-}
 
 @media screen and (max-width: 1000px) {
   .questions{
-    margin-top: 20%;
-    margin-bottom: 5%;
-    width: 85%;
+    width: 90%;
   }
 
-  .questions mat-expansion-panel{
-    width: 100%;
-    height: auto;
-    background-color: rgba(0,0,0,.3);
-    color: white;
-  }
-
-  .questions p{
-    color: white;
-    font-size: 14pt;
-  }
-
-  .questions mat-panel-title{
-    font-size: 16pt;
-    color: white;
+  .faq {
+    margin-top: 100px;
   }
 }
 
-@media screen and (max-width: 700px) {
+ @media screen and (max-width: 700px) {
 
   .questions{
-    margin-top: 20%;
-    margin-bottom: 5%;
-    width: 85%;
-  }
-
-  .questions mat-expansion-panel{
+    margin: 0;
     width: 100%;
-    height: auto;
-    background-color: rgba(0,0,0,.3);
-    color: white;
   }
 
-  .questions p{
-    color: white;
-    font-size: 12pt;
-  }
-
-  .questions mat-panel-title{
-    font-size: 14pt;
-    color: white;
+  .faq {
+    margin-top: 58px;
   }
 
 }

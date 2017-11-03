@@ -10,7 +10,7 @@ import { HttpModule } from '@angular/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Capstone Home Inspection LLC';
 
   onDeactivate() {
     // document.body.scrollTop = 0;

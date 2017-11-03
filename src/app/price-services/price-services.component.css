@@ -1,49 +1,192 @@
 .hero{
-  background-image: url('../../assets/img/brian-babb-256298.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  width: 100%;
-  height: 700px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 8%;
-}
-
-.pricing-info{
-  padding-top: 3%;
-  margin-top: 5%;
-  font-size: 15pt;
-  text-align: center;
-  width: 30%;
-  height: 500px;
-  background: rgba(255,255,255,.4);
-  color: black;
-}
-
-.pricing-info h1 {
-  text-align: center;
-  color: rgba(1,188,198,1);
-  font-size: 20pt;
-}
-.test{
-  background-image: url('../../assets/img/brian-babb-256298.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: inherit;
-  height: inherit;
-}
-
-.additional{
-  width: 100%;
-  height: 700px;
-  display: flex;
-  justify-content: center;
   background-image: url('../../assets/img/naomi-hebert-188443.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 8%;
+
+}
+
+.overlay{
+  width: inherit;
+  height: auto;
+  background: rgba(79, 195, 247,.7);
+  padding-bottom: 55px;
+  padding-top: 50px;
+}
+
+.header{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 15px;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
+.pricing-main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-info{
+  margin-top: 3%;
+  font-size: 20px;
+  text-align: center;
+  width: 30%;
+  height: auto;
+  color: white;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
+.pricing-info h1 {
+  font-size: 30px;
+}
+
+.pricing-info li{
+  list-style: none;
+}
+
+.certs-contain{
+  width: 100%;
+  height: 290px;
+  background: #f9f9f9;
+  -webkit-filter: drop-shadow(1px 1px 1px #222);
+  filter: drop-shadow(1px 1px 1px #222);
+}
+
+.certs-header{
+  width: inherit;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.certs{
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f9f9f9;
+}
+
+.circle-logo {
+  width: 120px;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*margin-right: 160px;*/
+  color: rgba(1, 188, 198, 1);
+}
+
+.img3{
+    background-image: url('../../assets/img/Electrical-logo.png');
+}
+.img4{
+    background-image: url('../../assets/img/RoofInspector.png');
+}
+
+.img7{
+  background-image: url('../../assets/img/plumbing-inspector-logo.png');
+}
+
+.img6{
+    background-image: url('../../assets/img/InterNACHI-Certified-Structure-Foundation-Inspector-PNG-a.png');
+}
+
+.additional{
+  width: 100%;
+  height: auto;
+  background-image: url('../../assets/img/naomi-hebert-188443.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.add-overlay{
+  width: inherit;
+  height: inherit;
+  background: rgba(255, 255, 255,.8);
+}
+
+.add-overlay h1{
+  font-size: 40px;
+  padding-top: 50px;
+  text-align: center;
+  color: black;
+
+}
+
+.info-container{
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.info li{
+  list-style: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 700px) {
+  .circle-logo {
+    width: 90px;
+  }
+  .pricing-main{
+    flex-direction: column;
+    align-items: center;
+  }
+  .header{
+    font-size: 35px;
+    padding-top: 0;
+  }
+  .pricing-info{
+    width: 90%;
+    font-size: 18px;
+  }
+  .pricing-info h1 {
+    font-size: 25px;
+  }
+  .certs-header{
+    font-size: 35px;
+  }
+  .add-overlay h1{
+    font-size: 35px;
+  }
+  .info{
+    width: 80%;
+    font-size: 18px;
+    flex-direction: column;
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .circle-logo {
+    width: 70px;
+  }
 }

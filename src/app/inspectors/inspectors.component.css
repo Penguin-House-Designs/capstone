@@ -4,7 +4,7 @@
   height: 100%;
   width: 100%;
   flex-wrap: wrap;
-  background: url('../../assets/img/inspectors-bg2.jpg') fixed no-repeat center;
+  background: url('../../assets/img/inspectors-bgSmall.jpg') fixed no-repeat center;
   background-size: cover;
   font-size: 20px;
 }
@@ -35,7 +35,7 @@
 }
 
 .team-pic {
-  background: url('../../assets/img/team2.jpg') no-repeat center;
+  background: url('../../assets/img/teamSmall.jpg') no-repeat center;
   background-size: cover;
   height: 100%;
   width: 28%;
@@ -43,7 +43,7 @@
 }
 
 .about {
-  background: rgba(1,188,198,.8);
+  background: rgba(79, 195, 247, .7);
   width: 50%;
   box-shadow: 1px 1px 3px #888888;
   display: flex;
@@ -63,7 +63,7 @@
 }
 
 .prof-container2 {
-  background: rgba(1,188,198,.7);
+  background: rgba(79, 195, 247, .7);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -72,7 +72,7 @@
 }
 
 .prof1 {
-  background: url('../../assets/img/scott.jpg') no-repeat center;
+  background: url('../../assets/img/scottSm.jpg') no-repeat center;
   background-size: cover;
   width: 20%;
   height: 100%;
@@ -80,7 +80,7 @@
 }
 
 .prof2 {
-  background: url('../../assets/img/jay.jpg') no-repeat;
+  background: url('../../assets/img/jaySm.jpg') no-repeat;
   background-size: cover;
   width: 20%;
   height: 100%;
@@ -97,7 +97,7 @@
 }
 
 .bio2 {
-  background: rgba(230,230,230, .7);
+  background: rgba(255,255,255, .7);
   width: 50%;
   box-shadow: 1px 1px 3px #888888;
   display: flex;

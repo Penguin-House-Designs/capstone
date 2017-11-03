@@ -1,37 +1,48 @@
-.my-map{
-    height: 600px;
-    width: 100%;
-    margin-left: 10%;
-    margin-top: 20vh;
-    margin-bottom: 10vh;
+.my-map {
+    margin-top: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ngui-map {
     display: block;
     height: 600px;
-    width: 80%;
+    width: 90%;
+    margin-bottom: 25px;
 }
 
 .my-map-header{
     display: flex;
-    width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 36px;
     justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {
-    
+
     .my-map{
-        margin-top: 18vh;
+        margin-top: 80px;
     }
- 
+
  }
 @media screen and (max-width: 700px) {
-    
+
     .my-map{
-        margin-top: 13vh;
+        margin-top: 60px;
     }
- 
+
+    ngui-map {
+        display: block;
+        height: 525px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .my-map-header {
+      font-size: 24px;
+      margin: 16px 0;
+    }
+
  }
