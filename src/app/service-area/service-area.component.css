@@ -1,9 +1,16 @@
+/*.map-contain{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(79, 195, 247,.5);
+}*/
+
 .my-map{
     height: 600px;
     width: 100%;
     margin-left: 10%;
     margin-top: 20vh;
     margin-bottom: 10vh;
+
 }
 
 ngui-map {
