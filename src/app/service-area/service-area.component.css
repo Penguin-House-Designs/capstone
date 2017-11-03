@@ -17,21 +17,21 @@ ngui-map {
     width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 36px;
     justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {
-    
+
     .my-map{
         margin-top: 18vh;
     }
- 
+
  }
 @media screen and (max-width: 700px) {
-    
+
     .my-map{
         margin-top: 13vh;
     }
- 
+
  }
