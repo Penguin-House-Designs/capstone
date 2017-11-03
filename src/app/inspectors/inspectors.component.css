@@ -43,7 +43,7 @@
 }
 
 .about {
-  background: rgba(1,188,198,.8);
+  background: rgba(79, 195, 247, .7);
   width: 50%;
   box-shadow: 1px 1px 3px #888888;
   display: flex;
@@ -63,7 +63,7 @@
 }
 
 .prof-container2 {
-  background: rgba(1,188,198,.7);
+  background: rgba(79, 195, 247, .7);
   width: 100%;
   display: flex;
   justify-content: space-between;
