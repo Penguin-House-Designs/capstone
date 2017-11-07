@@ -37,10 +37,12 @@
   display: flex;
   text-align: left;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 22px;
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter: drop-shadow(2px 2px 2px #222);
   margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 

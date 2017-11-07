@@ -107,6 +107,7 @@
   line-height: 1.8;
   text-decoration: none;
   color: white;
+  font-size: 25px;
 }
 
 .footer-contact .footer-company-name {
@@ -126,6 +127,7 @@
   vertical-align: top;
   margin: 15px 42px 0 0;
   color: white;
+  font-size: 20px;
 }
 
 .footer-contact form {
@@ -230,6 +232,9 @@
   .number-icon {
     font-size: 50px;
   }
+  .footer-contact .footer-links a{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -239,5 +244,8 @@
   }
   .number-icon {
     font-size: 40px;
+  }
+  .plogo{
+    width: 40%;
   }
 }
