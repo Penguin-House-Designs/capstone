@@ -13,18 +13,16 @@
 .overlay{
   width: inherit;
   height: auto;
-  background: rgba(79, 195, 247,.7);
+  background: rgba(255, 255, 255,.8);
   padding-bottom: 55px;
   padding-top: 50px;
 }
 
 .header{
-  color: white;
-  font-size: 40px;
+  color: black;
+  font-size: 36px;
   text-align: center;
   padding-top: 15px;
-  -webkit-filter: drop-shadow(2px 2px 2px #222);
-  filter: drop-shadow(2px 2px 2px #222);
 }
 
 .pricing-main{
@@ -38,9 +36,7 @@
   text-align: center;
   width: 30%;
   height: auto;
-  color: white;
-  -webkit-filter: drop-shadow(2px 2px 2px #222);
-  filter: drop-shadow(2px 2px 2px #222);
+  color: black;
 }
 .pricing-info h1 {
   font-size: 30px;
@@ -113,14 +109,16 @@
 .add-overlay{
   width: inherit;
   height: inherit;
-  background: rgba(255, 255, 255,.8);
+  background: rgba(79, 195, 247,.8);
 }
 
 .add-overlay h1{
-  font-size: 40px;
+  font-size: 45px;
   padding-top: 50px;
   text-align: center;
-  color: black;
+  color: white;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
 
 }
 
@@ -138,6 +136,9 @@
   padding-bottom: 60px;
   font-size: 20px;
   text-align: center;
+  color: white;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
 }
 
 .info li{
