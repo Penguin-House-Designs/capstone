@@ -1,12 +1,12 @@
 .home-top-contain {
-  width: 100vw;
+  width: 100%;
   display: flex;
   margin-top: 40px;
   flex-direction: column;
 }
 
 .home-box-one {
-  position: relative;
+  /*position: relative;*/
   display: flex;
   /*flex: 1;*/
   flex-direction: column;
@@ -41,8 +41,8 @@
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter: drop-shadow(2px 2px 2px #222);
   margin-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /*padding-left: 20px;*/
+  /*padding-right: 20px;*/
 }
 
 
@@ -176,7 +176,7 @@
     display: flex;
     text-align: left;
     justify-content: space-around;
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 40px;
   }
   .catch {
