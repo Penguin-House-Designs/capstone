@@ -6,7 +6,7 @@
 }
 
 .home-box-one {
-  position: relative;
+  /*position: relative;*/
   display: flex;
   /*flex: 1;*/
   flex-direction: column;
@@ -25,8 +25,6 @@
   background: rgba(79, 195, 247, .7);
   text-align: center;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .home-box-one-overlay span {
