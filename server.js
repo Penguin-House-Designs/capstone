@@ -11,15 +11,15 @@ app.get('*', function(req, res) {
 });
 
 app.post('/sendmail', (req, res) => {
-  var server = email.server.connect({user: "ac12491@gmail.com", password: "W0rkhard!", host: "smtp.gmail.com", port: 465, ssl: true});
+  var server = email.server.connect({user: "capstoneinspection@gmail.com", password: "Inittowinit729", host: "smtp.gmail.com", port: 465, ssl: true});
   console.log('email server connected');
   console.log(req.body);
   // send the message and get a callback with an error or details of the message that was sent
   server.send({
     text: req.body.message,
-    from: req.body.email,
-    to: 'ac12491@gmail.com',
-    subject: "Capstone request for info"
+    from: "Website request for info!",
+    to: 'info@capstonehomeutah.com',
+    subject: req.body.email
   }, function(err, message) {
     if (err)
       console.log(err);
