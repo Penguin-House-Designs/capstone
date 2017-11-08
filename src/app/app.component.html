@@ -19,12 +19,13 @@
     <div class="contact">
       Schedule your inspection <br> TODAY!
     </div>
-    <mat-list>
-      <mat-list-item class='sidenav-links' (click)="sidenav.close()">(385) 220-9495
-        <span style="font-size: 30px; margin-left: 20px;" class='ion-ios-telephone-outline'></span>
-      </mat-list-item>
+    <div class="sidenav-call">
+      <a href="tel:1-385-220-9495"(click)="sidenav.close()">
+          <span style='font-size:30px; margin-right:10px;' class='ion-ios-telephone-outline' ></span>
+           (385) 220-9495
+      </a>
+    </div>
 
-    </mat-list>
   </mat-sidenav>
 
   <router-outlet (deactivate)="onDeactivate()"></router-outlet>
