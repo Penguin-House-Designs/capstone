@@ -6,7 +6,7 @@
 }
 
 .home-box-one {
-  /*position: relative;*/
+  position: relative;
   display: flex;
   /*flex: 1;*/
   flex-direction: column;
@@ -25,6 +25,7 @@
   background: rgba(79, 195, 247, .7);
   text-align: center;
   color: white;
+
 }
 
 .home-box-one-overlay span {
@@ -32,7 +33,6 @@
 }
 
 .home-box-one-main {
-  width: 100%;
   height: auto;
   display: flex;
   text-align: left;
@@ -41,8 +41,8 @@
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter: drop-shadow(2px 2px 2px #222);
   margin-top: 50px;
-  /*padding-left: 20px;*/
-  /*padding-right: 20px;*/
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -171,13 +171,16 @@
     font-family: cursive;
   }
   .home-box-one-main {
-    width: 100%;
     height: auto;
     display: flex;
     text-align: left;
     justify-content: space-around;
     font-size: 20px;
     margin-top: 40px;
+  }
+  .home-box-one-main ul {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .catch {
     font-size: 30px;
@@ -210,7 +213,7 @@
     height: 450px;
   }
   .home-box-one-main {
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
     display: flex;
     text-align: left;
@@ -258,7 +261,7 @@
     height: auto;
   }
   .home-box-one-main {
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
     display: flex;
     flex-direction: column;
