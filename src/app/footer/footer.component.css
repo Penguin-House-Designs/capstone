@@ -30,18 +30,21 @@
 }
 
 .plogo {
-  width: 30%;
+  width: 160px;
   height: auto;
   color: #8f9296;
   opacity: .5;
 }
 
 .logo-position {
+  position: relative;
+  bottom: 0;
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 10% 0 0 5%;
+  padding-top: 30px;
 }
 
 .circle-logo {
@@ -113,7 +116,7 @@
 
 .footer-contact .footer-company-name {
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
   display: flex;
   align-items: center;
@@ -247,6 +250,6 @@
     font-size: 40px;
   }
   .plogo{
-    width: 40%;
+    width: 125px;
   }
 }
