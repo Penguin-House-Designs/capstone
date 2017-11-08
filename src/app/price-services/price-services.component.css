@@ -141,8 +141,13 @@
   filter: drop-shadow(2px 2px 2px #222);
 }
 
-.info li{
+.info li {
   list-style: none;
+}
+
+.info a {
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1200px) {
