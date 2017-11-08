@@ -9,7 +9,7 @@ export class ServiceAreaComponent implements OnInit {
 
   constructor() { }
 
-  title: string = 'My first AGM project';
+  title: string = 'Capstone Service Area';
   lat = 40.7608;
   lng = -111.8910;
   paths = [
