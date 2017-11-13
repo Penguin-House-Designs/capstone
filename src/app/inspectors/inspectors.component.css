@@ -181,3 +181,9 @@
   }
 
 }
+
+@media screen and (max-width: 400px) {
+  .team-container {
+    height: 710px;
+  }
+}
