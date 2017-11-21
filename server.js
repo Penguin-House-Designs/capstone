@@ -11,7 +11,7 @@ app.get('*', function(req, res) {
 });
 
 app.post('/sendmail', (req, res) => {
-  var server = email.server.connect({user: "capstoneinspection@gmail.com", password: "Inittowinit729", host: "smtp.gmail.com", port: 465, ssl: true});
+  var server = email.server.connect({user: "capstoneinspection@gmail.com", password: "inittowinit2018", host: "smtp.gmail.com", port: 465, ssl: true});
   console.log('email server connected');
   console.log(req.body);
   // send the message and get a callback with an error or details of the message that was sent
