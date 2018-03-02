@@ -18,7 +18,8 @@ import {
   MatIconModule,
   MatSidenavModule,
   MatExpansionModule,
-  MatSnackBarModule
+  MatSnackBarModule,
+  MatTooltipModule
  } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
 import { FaqComponent } from './faq/faq.component';
@@ -51,6 +52,7 @@ import { HttpModule } from '@angular/http';
     MatListModule,
     MatCardModule,
     MatIconModule,
+    MatTooltipModule,
     MatSidenavModule,
     MatExpansionModule,
     NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyAglDddDEF-z2VmoKfCO_NHAeHL8fECOdU'})
