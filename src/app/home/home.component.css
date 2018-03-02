@@ -5,6 +5,10 @@
   flex-direction: column;
 }
 
+.seo{
+  display: none;
+}
+
 .reviews{
   color: white;
 }
