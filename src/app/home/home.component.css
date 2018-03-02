@@ -5,6 +5,10 @@
   flex-direction: column;
 }
 
+.reviews{
+  color: white;
+}
+
 .home-box-one {
   position: relative;
   display: flex;
