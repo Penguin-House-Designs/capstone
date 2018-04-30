@@ -20,6 +20,26 @@ ngui-map {
     justify-content: center;
 }
 
+.locations-title{
+   margin-bottom: 5%;
+   font-size: 25px;
+   text-align: center;
+}
+
+.locations-contain{
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.locations{
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
 @media screen and (max-width: 1000px) {
 
     .my-map{
@@ -44,5 +64,13 @@ ngui-map {
       font-size: 24px;
       margin: 16px 0;
     }
+
+    .locations-title{
+        font-size: 20px;
+     }
+     
+     .locations{
+         font-size: 15px;
+     }
 
  }
