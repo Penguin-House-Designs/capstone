@@ -55,7 +55,7 @@ import { HttpModule } from '@angular/http';
     MatTooltipModule,
     MatSidenavModule,
     MatExpansionModule,
-    NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyAglDddDEF-z2VmoKfCO_NHAeHL8fECOdU'})
+    NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key='})
   ],
   providers: [],
   bootstrap: [AppComponent]
