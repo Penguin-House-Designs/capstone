@@ -18,7 +18,7 @@ app.post('/sendmail', (req, res) => {
   server.send({
     text: req.body.message,
     from: "Website request for info!",
-    to: 'info@capstonehomeutah.com',
+    to: '',
     subject: req.body.email
   }, function(err, message) {
     if (err)
